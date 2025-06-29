@@ -2,7 +2,6 @@
 #include <Python.h>
 
 
-// Функция, вызываемая из Python
 static PyObject *hello(PyObject *self, PyObject *args, PyObject *kwargs) {
 	const char *name = "", *surname = "";
 	char *keywords[] = {"name", "surname",NULL};

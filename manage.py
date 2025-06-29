@@ -19,7 +19,9 @@ def main():
 
 
 if __name__ == '__main__':
+	print("site at http://127.0.0.1/")
 	log = open('logs/general_error.log', 'r+')
 	sys.stderr = log
+
 	main()
 	log.close()
